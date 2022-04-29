@@ -1,0 +1,26 @@
+txtpath: /home/rleung/word-embedding/pluralist_safe_water_all_reports.json
+taskname: pluralist_safe_water_all_reports
+term_weight: IDF
+n_trials: 1
+n_topic: 5
+stopwords:
+- water
+- drinking
+- section
+- subsection
+- fiscal
+- year
+- fy
+- paragraph
+- title
+- amend
+- amendment
+- provide
+- include
+- involve
+- make
+- use
+- propose
+- subparagraph
+model_name: gsm
+num_epochs: 1000
